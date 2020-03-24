@@ -3,6 +3,15 @@
 # wids
 Wifi Intrusion Detection Sytem (*kinda*) and Attacker (*soon*)
 
+## Installing
+Before installing make sure you have python3 and python3-pip added to your path:
+```sh
+$ sudo su
+# git clone https://github.com/d4rckh/wids
+# chmod +x setup.sh
+# ./setup.sh
+```
+
 ## Functions
 ### Monitoring
 - The actual Intrusion "Detection System"
