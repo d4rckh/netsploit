@@ -19,4 +19,6 @@ Wifi Intrusion Detection Sytem (*kinda*) and Attacker (*soon*)
             - **--hideBeacons** `Do not show beacon packets`
             - **--hideDeauths** `Do not show deauth packets`
             - **--dontHop** `Disables channel hoppinh`
+            - **--verbose** `Show more info (probably useless for now)`
+                - Right now this is activated for deauth packets and can't be turned off
  
