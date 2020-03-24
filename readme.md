@@ -48,3 +48,12 @@ $ sudo su
     - **--bssid {access point bssid}** `Defines the access point`
     - **--client {client bssid}** `Defines client/target bssid`
     - **--number {count}** `How many packets do you want to send?`
+### Scan
+- Scans for access points
+    - An interface with the mode set on monitor (use your fav method of setting up the mode to monitor, here's how with the `aircrack-ng` suite):
+        > sudo airmon-ng start \<wlan0mon\>
+    - Root access
+- Syntax (example):
+    > sudo python main.py --attack scan --iface wlan0mon
+    - **--attack scan** `Selects the scan function`
+    - **--iface {interface}** `Selects the interface to be used`
